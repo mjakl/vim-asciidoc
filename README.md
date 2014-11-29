@@ -18,7 +18,7 @@ capabilities.
 Foldlevels are computed by the number of `=` at the start of the line.
 
 It also includes a few snippets that can be used with
-[UltiSnips](https://github.com/SirVer/ultisnips) or similar snippet plugins.
+[UltiSnips](https://github.com/SirVer/ultisnips).
 
 The `commentstring` and `comments` variables are set to Asciidoc compatible
 values.
