@@ -17,7 +17,7 @@ capabilities.
 
 Foldlevels are computed by the number of `=` at the start of the line.
 
-It also includes a few snippets that can be used with
+It also includes snippets that can be used with
 [UltiSnips](https://github.com/SirVer/ultisnips).
 
 The `commentstring` and `comments` variables are set to Asciidoc compatible
@@ -40,9 +40,18 @@ to configure theat (`1` is a good choice):
 
     let g:vim_asciidoc_initial_foldlevel=1
 
+## Snippets
+
+Asciidoc does not contain much boilerplate, but some things are repetetive,
+the plugin includes UltiSnips snippets to make these few cases as pleasant as possible.
+
+* `doc` Insert document header
+* `source` Insert a source code block
+* `quote` Insert a new quote block
+
 ## Credits
 
-The plugin is based on the work of many people, especially the cerators of
+The plugin is based on the work of many people, especially the creators of
 these projects:
 
 * [gnperdue/vim-asciidoc](https://github.com/gnperdue/vim-asciidoc)

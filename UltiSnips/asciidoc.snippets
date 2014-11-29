@@ -6,3 +6,17 @@ ${2:My Name <and@email.com>}
 
 $0
 endsnippet
+
+snippet source "Add a source code block" b
+[source,${1:language}]
+----
+$0
+----
+endsnippet
+
+snippet quote "Add a quote block" b
+[quote, ${1:Name}${2:, ${3:Occasion}}]
+____
+$0
+____
+endsnippet
