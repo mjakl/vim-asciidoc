@@ -27,5 +27,5 @@ if !get(g:, "vim_asciidoc_folding_disabled", 0)
 endif
 
 setlocal commentstring=//\ %s
-setlocal comments=://,sr:////,mb:,ex:////
+setlocal comments=fl:////,://
 
