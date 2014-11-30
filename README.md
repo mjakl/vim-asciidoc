@@ -36,7 +36,7 @@ To disable the folding of Asciidoc headers, add this to your `.vimrc`:
     let g:vim_asciidoc_folding_disabled=0
 
 The default foldlevel after loading an Asciidoc file is `0`,
-to configure theat (`1` is a good choice):
+you can configure that (`1` is a good choice):
 
     let g:vim_asciidoc_initial_foldlevel=1
 
